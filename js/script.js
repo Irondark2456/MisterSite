@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         
         // Remplacer par votre lien d'invitation Discord
-        const discordInviteLink = 'https://discord.gg/votre-lien-dinvitation';
+        const discordInviteLink = 'https://discord.com/oauth2/authorize?client_id=1091243362645966848&permissions=8&scope=applications.commands+bot';
         
         window.open(discordInviteLink, '_blank');
     });
