@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     // Bouton Discord - Remplacer par votre lien d'invitation Discord
-    const discordBtn = document.getElementById('https://discord.com/oauth2/authorize?client_id=1091243362645966848&permissions=8&scope=applications.commands+bot');
+    const discordBtn = document.getElementById('discord-btn');
     
     discordBtn.addEventListener('click', function(e) {
         e.preventDefault();
