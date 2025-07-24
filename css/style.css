@@ -464,6 +464,27 @@ section {
 /* Discord Bot Section */
 .discord-bot {
     background: linear-gradient(to bottom, var(--bg-color), rgba(5, 10, 24, 0.9));
+     position: relative;
+    overflow: hidden;
+}
+
+.bot-bg-futuriste {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    transform: translate(-50%, -50%);
+    background: url('../img/CatBot-removebg-preview.png') no-repeat center/contain;
+    opacity: 0.15;
+    filter: blur(4px) drop-shadow(0 0 60px #ff00cc);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.discord-bot .container > *:not(.bot-bg-futuriste) {
+    position: relative;
+    z-index: 2;
 }
 
 .bot-content {
